@@ -1,0 +1,22 @@
+# Basic
+
+numpy
+
+# Config
+
+hydra-core
+
+# Logging
+
+wandb
+
+# ML
+
+torch
+torchvision
+torchmetrics
+
+# RL
+
+gymnasium[mujoco]
+tianshou
