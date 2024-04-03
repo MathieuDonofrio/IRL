@@ -119,7 +119,7 @@ class MLIRLPolicy(SACPolicy):
         in the batch.
         """
         with torch.no_grad():
-            batch.reward = to_numpy(self.reward(batch))
+            batch.rew = to_numpy(self.reward(batch))
         return super().process_fn(batch, buffer, indices)
 
     def reward(self, batch: Batch) -> torch.Tensor:
