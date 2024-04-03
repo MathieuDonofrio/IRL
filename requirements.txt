@@ -1,10 +1,7 @@
 # Basic
 
 numpy
-
-# Config
-
-hydra-core
+xmltodict
 
 # Logging
 
@@ -20,3 +17,4 @@ torchmetrics
 
 gymnasium[mujoco]
 tianshou
+envpool
